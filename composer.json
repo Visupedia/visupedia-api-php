@@ -1,0 +1,27 @@
+{
+	"name": "visupedia/visupedia",
+	"version": "0.0.1",
+	"description": "Official Visupedia API library client for PHP",
+	"homepage": "http://visupedia.net",
+	"authors": [
+		{
+			"name": "Gaël Gillard",
+			"email": "dev@visupedia.net",
+			"homepage": "https://dev.visupedia.net"
+		}
+	],
+	"keywords": ["visupedia"],
+	"autoload": {
+		"psr-0": {
+			"Visupedia\\": "lib/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+		"guzzle/guzzle": "3.7.*"
+	},
+	"support": {
+		"issues": "https://github.com/visupedia/visupedia-api-php/issues"
+	},
+	"license": "MIT"
+}
