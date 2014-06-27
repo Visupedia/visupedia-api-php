@@ -37,9 +37,9 @@ class Visu
         $body['lang'] = $lang;
         $body['version'] = $version;
 
-        $response = $this->client->get('/api?key='.rawurlencode($this->key).'&id='.rawurlencode(id).'&lang='.rawurlencode(lang).'&version='.rawurlencode(version).'', $body, $options);
+        $response = $this->client->get('/api?key='.rawurlencode($this->key).'&id='.rawurlencode($id).'&lang='.rawurlencode($lang).'&version='.rawurlencode($version).'', $body, $options);
 
-        return $response;
+        return json_decode($response->body);
     }
 
 }
