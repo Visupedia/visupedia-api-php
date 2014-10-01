@@ -13,7 +13,7 @@ Add the following to your composer.json
 ```js
 {
     "require": {
-        "visupedia/visupedia": "*"
+        "visupedia/visupedia": "@dev"
     }
 }
 ```
