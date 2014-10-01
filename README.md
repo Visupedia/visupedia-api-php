@@ -122,7 +122,7 @@ The following arguments are required:
  * __version__: Use a specific version of our API
 
 ```php
-$response = $visu->get("18074f27cb5336.93484109", "fr", "2", $options);
+$response = $visu->get("5396d8c752cfd8.93460735", "fr", "2", $options);
 ```
 
 ## Contributors
